@@ -33,7 +33,7 @@
     "flow": "flow",
     "flow-typed": "npm run clean && flow-typed install --overwrite || true",
     "lint": "eslint lib",
-    "prepublish": "npm run test"
+    "prepublish": ""
   },
   "peerDependencies": {
     "react": "^15 || ^16",
