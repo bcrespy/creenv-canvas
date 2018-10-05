@@ -25,28 +25,12 @@
   "scripts": {
     "clean": "",
     "test": "cross-env NODE_ENV=test jest",
-    "test:watch": "cross-env NODE_ENV=test jest --watch",
-    "test:cover": "cross-env NODE_ENV=test jest --coverage",
-    "coveralls": "npm run test:cover && cat ./coverage/lcov.info | coveralls",
-    "flow": "flow",
-    "flow-typed": "npm run clean && flow-typed install --overwrite || true",
-    "lint": "eslint lib",
     "prepublish": ""
   },
   "peerDependencies": {},
   "dependencies": {},
   "devDependencies": {
-    "coveralls": "3.0.0",
     "cross-env": "5.1.4",
-    "eslint": "4.19.1",
-    "eslint-config-airbnb": "16.1.0",
-    "eslint-plugin-import": "2.11.0",
-    "eslint-plugin-jsx-a11y": "6.0.3",
-    "eslint-plugin-react": "7.7.0",
-    "flow-bin": "0.70.0",
-    "flow-typed": "2.4.0",
-    "fs-file-tree": "1.0.6",
-    "jest": "22.4.3",
-    "rimraf": "2.6.2"
+    "jest": "22.4.3"
   }
 }
